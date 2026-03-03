@@ -36,7 +36,7 @@ void PrintData(object data)
     }
     else if (typeName == "String")
     {
-        Console.WriteLine($"문자열: {data} (길이: {((String)data).Length})");
+        Console.WriteLine($"문자열: \"{data}\" (길이: {((String)data).Length})");
         isString++;
     }
     else if (typeName == "Boolean")
